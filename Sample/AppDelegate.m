@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
 
     NSLog(@"JESTO");
+    NSLog(@"NEWLINE at github");
 
     return YES;
 }
