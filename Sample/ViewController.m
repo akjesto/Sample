@@ -23,8 +23,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     mArray = [[NSMutableArray alloc]init];
-  //  mTableView.estimatedRowHeight = 100;
+  //  mTableView.estimatedRowHeight = 10000;
     mTableView.rowHeight = UITableViewAutomaticDimension;
+    
+    //added 
     self.mTableView.delegate = self;
     self.mTableView.dataSource = self;
     
